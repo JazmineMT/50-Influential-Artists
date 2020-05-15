@@ -1,0 +1,17 @@
+.center{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.buttonStyle(@bg-color: darkgrey,@font-color:white){
+    background-color: @bg-color;
+    color:@font-color; 
+    
+&:hover{
+      background-color:@font-color;
+      color:@bg-color;
+      
+    }
+}

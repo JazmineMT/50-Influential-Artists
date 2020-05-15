@@ -25,10 +25,24 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. How would you describe preprocessing to someone new to CSS?
+
+Preprocessing is a way to compile all of our code in CSS to better organize. 
+
 2. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+The able to nest and througly organize all of our code helps me better understand the reltionship between parent and children in my HTML , that's my favorite part. Media queries still give me a slight bit of trouble trying to figure out at which level I want to manipulate.
+
 3. How would you explain the concept of a variable to someone new to programming?
+
+A variable is a way we can store data we will use often in out code. This way you can keep your code D.R.Y. Also it allows for easy changing of things in CSS later.
+
 4. What is the purpose of using functions in code?
+
+Functions allow us to store a task inside of them. So when we call your function if will perform all the steps inside of it. 
+
 5. What is a JSON data?
+
+It is a way to strucute data keeping it minimail and readable. 
 
 You may need to look up an answer but, you are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -49,7 +63,7 @@ Follow these steps to set up your project:
 
 * [ ] Verify that you have LESS installed correctly by running `lessc -v` in your terminal, if you don't get a version message back, reach out to your project manager for help.
 * [ ] In your project's root folder, run the following command `less-watch-compiler less css index.less`
-* [ ] Verify your compiler is working correctly by changing the `background-color` on the `body` selector to `red` in your `index.less` file.
+* [ ] Verify your compiler is working correctly by changing the `background-color` on the `body` selector to `red` in your `index.less` file.less
 * [ ] Once you see the red screen, you can delete that style and you're ready to start on the next task
 
 ### Task 2a:  Minimum Viable Product - PreProcessing

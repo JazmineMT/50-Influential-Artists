@@ -1,0 +1,98 @@
+.title-container{
+  position: relative;
+  text-align: center;
+  color: white;
+  
+
+    img{
+        width: 60%;
+
+        @media @mobile{
+              
+            width:100%;
+        }
+        
+        
+    }
+
+    h1{
+        font-size: 4rem;
+        letter-spacing: .2rem;
+        font-weight: bold;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        @media @mobile{
+            font-size: 2rem;;
+        }
+        
+    }
+    button{
+        width: 7%;
+        height: 5%;
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        .buttonStyle();
+        transform: translate(-50%, -50%);
+        
+        @media @mobile{
+            width:25%;
+            height: 10%;
+        }
+    }
+}
+
+.artists-container{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: center;
+
+        @media @mobile{
+            display:flex;
+            flex-direction: column;
+        }
+
+    .artist{
+        width:25%;
+        padding: 2%;
+        align-content: center;
+
+        @media @mobile{
+            width:60%;
+            padding: 10% 15%;
+        }
+        
+        a{
+            width:100%;
+            text-decoration: none;
+            font-size: 1.5rem;;
+            color: black;
+            margin: 10%;
+            padding-left: 15%;
+            
+            @media @mobile{
+              
+                width:100%;
+            }
+            
+        }
+        
+        img{
+            width: 110%
+        }
+
+        .bio{
+            width: 100%;
+            .center();
+            padding: 5%;
+            
+            @media @mobile{
+                width:100%;
+            }
+        }
+    }
+}
