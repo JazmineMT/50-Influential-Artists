@@ -91,21 +91,31 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
-header {
+header #navParent {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-header nav {
+header #navParent nav {
+  height: 50%;
   font-size: 1.5rem;
   padding: 2%;
 }
-header nav a {
+@media (max-width: 500px) {
+  header #navParent nav {
+    margin: 5%;
+    font-size: 1rem;
+  }
+}
+header #navParent nav a {
   color: slategrey;
   text-decoration: none;
-  border-right: 2px solid slategray;
+  border-right: 2px solid #8e9aa7;
+  padding: 20px;
+  margin: 10px;
 }
-header nav a:hover {
+header #navParent nav a:hover {
   color: black;
 }
 .title-container {
